@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="user-local">
+        <video src="" id="local"></video>
+        <button id="btn-camera-lcoal" style="font-size: 30px;" onclick="a(event)" data-state = "active" data-kind ="video">CAMERA</button>
+    </div>
+    
+    <div class="user-remote">
+        <video src="" id="remote"></video>
+       <!-- <button id="btn-camera-remote" style="font-size: 30px;">CAMERA</button> -->
+    </div>
+    <script src="https://unpkg.com/peerjs@1.4.7/dist/peerjs.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
